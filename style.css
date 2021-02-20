@@ -1,0 +1,58 @@
+body{
+ background-color: black;
+ font-size: 15px;
+ position: absolute;
+ top:50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+.post {
+    background-color: whitesmoke;
+    width: 400px;
+    height: 550px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.post-header {
+    padding-top: 10px;
+    padding-left: 6px;
+}
+
+.post-body {
+    padding: 10px;
+    align-items: baseline;
+    text-align: justify;
+}
+
+.points{
+    float: right;
+    padding: 6px;
+}
+
+.left {
+    padding: 5px;
+    float: left;
+    margin: 0;
+}
+
+h4 {
+    margin: 0;
+}
+
+#rigo{
+    margin: 0;
+}
+
+.Rigoberto {
+    padding-left: 10px;
+    padding-top: 0;
+    padding-bottom: 5px;
+    float: left;
+    margin: 0;
+}
